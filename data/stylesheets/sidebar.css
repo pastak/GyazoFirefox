@@ -1,0 +1,11 @@
+.imageBox {
+  width: 100%;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.imageBox > img {
+  display: 'inline-box';
+  max-width: 95%;
+  margin: auto;
+}
