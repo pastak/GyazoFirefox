@@ -6,7 +6,7 @@ module.exports =
     AppDispatcher.handleViewAction
       actionType: Constants.ActionTypes.UPDATE_TAB
       data: data
-  changeTab: (tab) ->
+  changeTab: (tabId) ->
     AppDispatcher.handleViewAction
       actionType: Constants.ActionTypes.CHANGE_TAB
-      selectedTab: tab
+      selectedTab: tabId
